@@ -20,7 +20,7 @@ while True:
         cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 255), 3)
     # Display
     cv2.imshow('img', img)
-    # Stop if escape key is pressed
+    # Stop if enter key is pressed
     k = cv2.waitKey(30) & 0xff
     if k==13:
         break
